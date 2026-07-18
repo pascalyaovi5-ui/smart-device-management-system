@@ -1,6 +1,4 @@
 # smart-device-management-system
-# ==============================================================================
-# EL 162 / 234 OBJECT ORIENTED PROGRAMMING - MINI PROJECT
 # Project Name: Smart Device Management System
 
 
@@ -128,9 +126,8 @@ class SmartLight(SmartDevice):
         print(f"Rec Status   : {self.recording_status}")
 
 
-# ==============================================================================
 # MENU-DRIVEN INTERFACE
-# ==============================================================================
+
 def main():
 
     living_room_temp = TemperatureSensor("Living Room Sensor", "TS-101", 26.0)
